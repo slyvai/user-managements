@@ -14,7 +14,8 @@
    git clone https://github.com/your-username/react-user-management.git
    cd react-user-management
 ```
-2. Install package
+
+2. **Install package**
    Including :
    ```sh
    1. npm install
