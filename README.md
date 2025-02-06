@@ -1,8 +1,24 @@
-# React + Vite
+# React User Management 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features 
+- Add new users
+- Edit existing users
+- Delete users
+- Search users by name, email and role
 
-Currently, two official plugins are available:
+## How To Install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone the respository**
+
+```sh
+   git clone https://github.com/your-username/react-user-management.git
+   cd react-user-management
+```
+2. Install package
+   Including :
+   ```sh
+   1. npm install
+   2. npm install formik yup
+   3. npm install react-dom-router
+   ```
+**Dont Forget To Run Json Server**
