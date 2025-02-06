@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.container-edit {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  background: #fff;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  width: 50%;
+}
+
+h2 {
+  color: #885cf6;
+}
+
+.container-edit Form {
+  margin-top: 50px;
+}
+
+.editing-button button {
+  border: none;
+  color: #885cf6;
+  background: none;
+  font-size: 17px;
+  margin-top: 30px;
+}

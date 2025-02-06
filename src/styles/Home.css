@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+  background: #fef3ff;
+}
+
+.table-container {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  position: relative;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+table{
+  border-collapse: collapse;
+  margin: 50px auto;
+  background: #fff;
+}
+
+
+thead tr {
+  background: linear-gradient(to right, #885cf6, #ec4899);
+  color: #fff;
+}
+
+tr {
+  border-bottom: 1px solid #a8a8a8;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  width: 30%;
+}
+
+tr:nth-child(even) {
+  background-color: #f9e5ff;
+}
+
+tr:first-child th:first-child { border-top-left-radius: 10px; }
+tr:first-child th:last-child { border-top-right-radius: 10px; }
+
+.button-delete {
+  border: none;
+  color: red;
+  background: none;
+  font-size: 16px;
+}
+
+.action {
+  display: flex;
+  gap: 2px;
+}
+
+.action a {
+  text-decoration: none;
+}
+
+.button-add {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  background: linear-gradient(to right, #885cf6, #ec4899);;
+  border: none;
+  position: absolute;
+  padding: 10px;
+  right: 10px;
+  top: -45px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+

@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "489b",
+      "name": "Alysia",
+      "email": "slyviafams@gmail.com",
+      "role": "polisi"
+    },
+    {
+      "id": "7e3f",
+      "name": "AlysiaBotak",
+      "email": "slyviafams@gmail.com",
+      "role": "admin"
+    },
+    {
+      "id": "cab4",
+      "name": "Alysia",
+      "email": "slyviagan@gmail.com",
+      "role": "polisi"
+    }
+  ]
+}
